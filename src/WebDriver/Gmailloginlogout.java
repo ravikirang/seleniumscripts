@@ -24,6 +24,7 @@ public class Gmailloginlogout {
 		driver.findElement(By.id("signIn")).click();
 		Thread.sleep(14000);
 	}
+//logout functionality
 	public void verifylogout()
 	{
 		driver.findElement(By.xpath(".//*[@id='gb']/div[1]/div[1]/div[2]/div[4]/div[1]/a/span")).click();
